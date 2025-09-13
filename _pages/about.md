@@ -27,8 +27,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+안녕하세요.  
+저는 ○○대학교 ○○연구실에 소속된 연구원입니다.  
+관심 분야는 인공지능, 데이터 분석, 로보틱스이며 현재 ○○ 프로젝트를 진행하고 있습니다.  
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+연락처나 연구실 위치는 오른쪽 프로필 영역을 참고해주세요.  
+연구 업적과 논문은 [출판물 페이지](/al-folio/publications/)에서 확인할 수 있습니다.  
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+저희 연구실은 협력과 혁신을 바탕으로 다양한 연구 활동을 이어가고 있습니다.  
+
