@@ -3,18 +3,25 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-about",
-    title: "about",
+    id: "nav-home",
+    title: "home",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-blog",
-          title: "blog",
-          description: "",
+  },{id: "nav-people",
+          title: "people",
+          description: "Members of the Lab",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/blog/";
+            window.location.href = "/people/";
+          },
+        },{id: "nav-research",
+          title: "research",
+          description: "A growing collection of your cool projects.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
           },
         },{id: "nav-publications",
           title: "publications",
@@ -23,13 +30,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-projects",
-          title: "projects",
-          description: "A growing collection of your cool projects.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
         },{id: "nav-repositories",
           title: "repositories",
           description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
@@ -37,42 +37,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/teaching/";
-          },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/people/";
-          },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/books/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/blog/";
-              },
-            },{id: "post-a-post-with-plotly-js",
+        },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
@@ -451,7 +416,32 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
+          section: "News",},{id: "people-ada-lovelace",
+          title: 'Ada Lovelace',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/ada/";
+            },},{id: "people-james-clerk-maxwell",
+          title: 'James Clerk Maxwell',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/maxwell/";
+            },},{id: "people-niels-bohr",
+          title: 'Niels Bohr',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/bohr/";
+            },},{id: "people-marie-curie",
+          title: 'Marie Curie',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/curie/";
+            },},{id: "people-prof-albert-einstein",
+          title: 'Prof. Albert Einstein',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/einstein/";
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
