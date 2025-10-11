@@ -416,26 +416,46 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "people-ada-lovelace",
-          title: 'Ada Lovelace',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/ada/";
-            },},{id: "people-james-clerk-maxwell",
+          section: "News",},{id: "people-james-clerk-maxwell",
           title: 'James Clerk Maxwell',
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/maxwell/";
-            },},{id: "people-niels-bohr",
-          title: 'Niels Bohr',
+            },},{id: "people-ada-lovelace",
+          title: 'Ada Lovelace',
           description: "",
           section: "People",handler: () => {
-              window.location.href = "/people/bohr/";
+              window.location.href = "/people/lovelace/";
+            },},{id: "people-alan-turing",
+          title: 'Alan Turing',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/turing/";
+            },},{id: "people-grace-hopper",
+          title: 'Grace Hopper',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/hopper/";
+            },},{id: "people-richard-feynman",
+          title: 'Richard Feynman',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/feynman/";
             },},{id: "people-marie-curie",
           title: 'Marie Curie',
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/curie/";
+            },},{id: "people-niels-bohr",
+          title: 'Niels Bohr',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/bohr/";
+            },},{id: "people-rosalind-franklin",
+          title: 'Rosalind Franklin',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/franklin/";
             },},{id: "people-prof-albert-einstein",
           title: 'Prof. Albert Einstein',
           description: "",
