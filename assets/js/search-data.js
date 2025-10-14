@@ -506,6 +506,26 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-autonomous-navigation-in-urban-environments",
+          title: 'Autonomous Navigation in Urban Environments',
+          description: "Vision-LiDAR fusion for safe and efficient city driving",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/project-autonomous-navigation/";
+            },},{id: "projects-human-robot-collaboration-in-manufacturing",
+          title: 'Human–Robot Collaboration in Manufacturing',
+          description: "AI-based motion prediction for safe cooperative tasks",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/project-collaborative-robot/";
+            },},{id: "projects-real-time-slam-for-mobile-robots",
+          title: 'Real-Time SLAM for Mobile Robots',
+          description: "Low-latency visual SLAM on embedded platforms",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/project-slam-robot/";
+            },},{id: "projects-multi-agent-path-planning-with-graph-neural-networks",
+          title: 'Multi-Agent Path Planning with Graph Neural Networks',
+          description: "Efficient routing and collision avoidance for robot swarms",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/topic-multi-agent-pathplanning/";
             },},{
         id: 'social-email',
         title: 'email',
