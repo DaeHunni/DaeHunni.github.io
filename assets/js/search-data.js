@@ -151,21 +151,191 @@ ninja.data = [{
           description: "",
           section: "Papers",handler: () => {
               window.location.href = "/papers/2025-yoo-supervised-learning/";
-            },},{id: "projects-project-autonomous-navigation",
-          title: 'Project Autonomous Navigation',
+            },},{id: "people-byeong-uk-kim",
+          title: 'Byeong Uk Kim',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/byeong-uk-kim/";
+            },},{id: "people-doo-yong-jin",
+          title: 'Doo Yong Jin',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/doo-yong-jin/";
+            },},{id: "people-gi-hun-shin",
+          title: 'Gi Hun Shin',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/gi-hun-shin/";
+            },},{id: "people-gun-woo-kim",
+          title: 'Gun Woo Kim',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/gun-woo-kim/";
+            },},{id: "people-hoon-hee-kim",
+          title: 'Hoon Hee Kim',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/hoon-hee-kim/";
+            },},{id: "people-hwan-cheol-hwang",
+          title: 'Hwan Cheol Hwang',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/hwan-cheol-hwang/";
+            },},{id: "people-hyun-jae-sim",
+          title: 'Hyun Jae Sim',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/hyun-jae-sim/";
+            },},{id: "people-jae-heo",
+          title: 'Jae Heo',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/jae-heo/";
+            },},{id: "people-ji-han-kang",
+          title: 'Ji Han Kang',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/ji-han-kang/";
+            },},{id: "people-ji-won-kim",
+          title: 'Ji Won Kim',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/ji-won-kim/";
+            },},{id: "people-jin-sung-kim",
+          title: 'Jin Sung Kim',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/jin-sung-kim/";
+            },},{id: "people-jin-woo-bae",
+          title: 'Jin Woo Bae',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/jin-woo-bae/";
+            },},{id: "people-joo-hyun-kim",
+          title: 'Joo Hyun Kim',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/joo-hyun-kim/";
+            },},{id: "people-joshua-kim",
+          title: 'Joshua Kim',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/joshua-kim/";
+            },},{id: "people-jun-gee-hong",
+          title: 'Jun Gee Hong',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/jun-gee-hong/";
+            },},{id: "people-jung-hoon-yoon",
+          title: 'Jung Hoon Yoon',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/jung-hoon-yoon/";
+            },},{id: "people-jung-wook-kim",
+          title: 'Jung Wook Kim',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/jung-wook-kim/";
+            },},{id: "people-kwang-jae-lee",
+          title: 'Kwang Jae Lee',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/kwang-jae-lee/";
+            },},{id: "people-kwang-ki-kim",
+          title: 'Kwang-Ki Kim',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/kwang-ki-kim/";
+            },},{id: "people-kyung-gon-noh",
+          title: 'Kyung Gon Noh',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/kyung-gon-noh/";
+            },},{id: "people-min-gyeom-kim",
+          title: 'Min Gyeom Kim',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/min-gyeom-kim/";
+            },},{id: "people-min-woo-gwon",
+          title: 'Min Woo Gwon',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/min-woo-gwon/";
+            },},{id: "people-sang-ho-jeon",
+          title: 'Sang Ho Jeon',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/sang-ho-jeon/";
+            },},{id: "people-sang-hyuk-kim",
+          title: 'Sang Hyuk Kim',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/sang-hyuk-kim/";
+            },},{id: "people-seung-jun-yoo",
+          title: 'Seung Jun Yoo',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/seung-jun-yoo/";
+            },},{id: "people-seung-won-nam",
+          title: 'Seung Won Nam',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/seung-won-nam/";
+            },},{id: "people-su-beom-jang",
+          title: 'Su Beom Jang',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/su-beom-jang/";
+            },},{id: "people-sun-woo-kim",
+          title: 'Sun Woo Kim',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/sun-woo-kim/";
+            },},{id: "people-sun-woo-shin",
+          title: 'Sun Woo Shin',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/sun-woo-shin/";
+            },},{id: "people-sung-jin-noh",
+          title: 'Sung Jin Noh',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/sung-jin-noh/";
+            },},{id: "people-sung-jun-park",
+          title: 'Sung Jun Park',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/sung-jun-park/";
+            },},{id: "people-won-hyung-lee",
+          title: 'Won Hyung Lee',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/won-hyung-lee/";
+            },},{id: "people-yong-hee-kim",
+          title: 'Yong Hee Kim',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/yong-hee-kim/";
+            },},{id: "projects-project-ev-smart-charging",
+          title: 'Project Ev Smart Charging',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/project-autonomous-navigation/";
-            },},{id: "projects-project-collaborative-robot",
-          title: 'Project Collaborative Robot',
+              window.location.href = "/projects/project-ev-smart-charging/";
+            },},{id: "projects-project-gpu-robot-path-optimization",
+          title: 'Project Gpu Robot Path Optimization',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/project-collaborative-robot/";
-            },},{id: "projects-project-slam-robot",
-          title: 'Project Slam Robot',
+              window.location.href = "/projects/project-gpu-robot-path-optimization/";
+            },},{id: "projects-project-industrial-vibration",
+          title: 'Project Industrial Vibration',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/project-slam-robot/";
+              window.location.href = "/projects/project-industrial-vibration/";
+            },},{id: "projects-project-safe-hri-learning",
+          title: 'Project Safe Hri Learning',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/project-safe-hri-learning/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
