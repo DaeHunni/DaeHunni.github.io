@@ -86,61 +86,6 @@ ninja.data = [{
           description: "",
           section: "Papers",handler: () => {
               window.location.href = "/papers/2025-park-autonomous-fleet/";
-            },},{id: "people-aslan-noorghasemi",
-          title: 'Aslan Noorghasemi',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/aslan_noorghasemi/";
-            },},{id: "people-chris-mccomb",
-          title: 'Chris McComb',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/chris_mccomb/";
-            },},{id: "people-christina-murphy",
-          title: 'Christina Murphy',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/christina-murphy/";
-            },},{id: "people-daehun-jung",
-          title: 'Daehun Jung',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/daehun/";
-            },},{id: "people-jacob-robson",
-          title: 'Jacob Robson',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/jacob-robson/";
-            },},{id: "people-kai-herchenroether",
-          title: 'Kai Herchenroether',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/kai_herchenroether/";
-            },},{id: "people-leyi-dora-zhang",
-          title: 'Leyi (Dora) Zhang',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/leyi_zhang/";
-            },},{id: "people-martha-baldwin",
-          title: 'Martha Baldwin',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/martha_baldwin/";
-            },},{id: "people-samuel-doe",
-          title: 'Samuel Doe',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/samuel-doe/";
-            },},{id: "people-scotty-mcgee",
-          title: 'Scotty McGee',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/scotty_mcgee/";
-            },},{id: "people-wenzhuo-xu",
-          title: 'Wenzhuo Xu',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/wenzhuo_xu/";
             },},{id: "projects-project-autonomous-navigation",
           title: 'Project Autonomous Navigation',
           description: "",
