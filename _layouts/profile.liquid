@@ -18,7 +18,7 @@ layout: default
         {% endif %}
         
         {% if page.email %}
-        <li><strong>Email:</strong> <a href="mailto:{{ page.email }}">{{ page.email }}</a></li>
+        <li><strong>Email:</strong> <a href="mailto:{{ page.email }}" target="_self">{{ page.email }}</a></li>
         {% endif %}
         
         {% if page.contact_note %}
@@ -66,11 +66,15 @@ layout: default
         <span class="authors">{{ pub.authors }}</span>, 
         <span class="title"><i>{{ pub.title }}</i></span>, 
         <span class="journal">{{ pub.journal }}</span>
-        {% if pub.link %}
-        [<a href="{{ pub.link }}">Link</a>]
+        {% if pub.paper %}
+        [<a href="{{ pub.paper }}" target="_blank">Paper</a>]
         {% endif %}
-      </li>
-      {% endfor %}
+        
+        {% if pub.link %}
+        [<a href="{{ pub.link }}" target="_blank">Link</a>]
+        {% endif %}
+        </li>
+        {% endfor %}
     </ul>
   </div>
   {% endif %}
